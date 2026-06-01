@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
 }
+
+:root {
+    --fondoPrincipal: #12131A; 
+    --fondoSecundario: #1C1F2A;
+    --textoPrincipal: #F2F2F7;
+    --textoSecundario: #B4B7C9;
+    --cardVioleta: #C99DFF;
+    --cardNaranja: #FFB21E;
+    --cardCoral: #FF8A65;
+    --barrasProgreso: #D19BFF;
+    --bordes: #2A2D3A;
+}
