@@ -10,7 +10,84 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Character Counter</h1>
-    <p>hola hola hola</p>
+    <div class="principal">
+        <div class="header">
+            <div class="titulo">
+                <img src="assets/images/logo.png" alt="logo">
+                <h1>Character Counter</h1>
+            </div>
+            <div class="tema">
+                <button></button>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div>
+            <h1>Analyze your text in real-time.</h1>
+        </div>
+        <div>
+            <textarea>Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity
+                in every interaction. A great design transforms complex ideas into elegant solutions, making them easy to
+                undertstand. It blends aesthetics and functionality seamlessly.</textarea>
+        </div>
+    </div>
+    <div class="post-main">
+        <div class="checkbox">
+            <label> <input type="checkbox">
+                Exclude Spaces
+            </label>      
+             <label> <input type="checkbox">
+                Set Character Limit
+            </label>   
+        </div>
+        <div>
+            <p>Approx. reading time: &lt;1 minute</p>
+        </div>
+         
+    </div>
+    <div class="cards">
+        <div class="card1">
+            <h1>278</h1>
+            <p>Total Characters</p>
+        </div>
+        <div class="card2">
+            <h1>39</h1>
+            <p>Word Count</p>
+        </div>
+        <div class="card3">
+            <h1>04</h1>
+            <p>Sentence Count</p>
+        </div>
+    </div>
+    <div class="density">
+        <h1>Letter Density</h1>
+        <div class="barras">
+            <label for="barra1">E</label>
+            <meter id="barra1" min="0" max="100" value="16.06"></meter>
+            <span>40 (16,06%)</span>
+
+            <label for="barra2">I</label>
+            <meter id="barra2" min="0" max="100" value="11.65"></meter>
+            <span>29 (11,65%)</span>
+
+            <label for="barra3">I</label>
+            <meter id="barra3" min="0" max="100" value="11.24"></meter>
+            <span>28 (11,24%)</span>
+
+            <label for="barra4">I</label>
+            <meter id="barra4" min="0" max="100" value="8.84"></meter>
+            <span>22 (8,84%)</span>
+
+            <label for="barra5">I</label>
+            <meter id="barra5" min="0" max="100" value="8.43"></meter>
+            <span>21 (8,43%)</span>
+
+            <details>
+            <summary style="cursor: pointer;">See more</summary>
+            <p>Coming Soon.</p>
+            </details>
+
+        </div>
+    </div>
 </body>
 </html>
