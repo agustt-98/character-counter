@@ -37,6 +37,7 @@ img{
 
 .button:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .header{
@@ -63,4 +64,130 @@ img{
     height: 100vh;
     border-radius: 10px;
     padding: 20px;
+}
+
+.main{
+    margin-top: 35px;
+}
+.main h1{
+    font-size: 40px;
+    color: var(--textoPrincipal);
+    text-align: center;
+}
+
+.textarea-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.textarea{
+    width: 100%;
+    border-radius: 10px;
+    height:130px;
+    padding:10px;
+    background-color: var(--fondoSecundario);   
+    border-color: var(--bordes);
+}
+
+.textarea::placeholder{
+    color:var(--textoSecundario);
+    font-weight: 400;
+}
+
+.post-main{
+    display: flex;
+    width:100%;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.post-main label{
+    font-size: 10px;
+    color: var(--textoSecundario);
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+
+.post-main p{
+    font-size: 10px;
+    color: var(--textoSecundario);
+}
+
+.div-checkbox{
+    display:flex;
+    gap:10px;
+}
+
+.checkbox{
+    appearance: none;
+    border: 1px, solid var(--textoSecundario);
+    border-radius: 3px;
+    width: 12px;
+    height: 12px;
+    cursor:pointer;
+}
+
+input:checked{
+      background-color:var(--textoSecundario);
+}
+
+.cards{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.cards h1{
+    font-size: 40px;
+}
+
+.cards p{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.card1{
+    width: 33.3%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:15px;
+    border-radius: 8px;
+    background-image: url("assets/images/fondo1.png");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card2{
+    width: 33.3%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:15px;
+    border-radius: 8px;
+    background-image: url("assets/images/fondo2.png");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.card3{
+    width: 33.3%;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:10px;
+    padding-right:15px;
+    border-radius: 8px;
+    background-image: url("assets/images/fondo3.png");
+    background-size: cover;      
+    background-position: center; 
+    background-repeat: no-repeat;
 }
