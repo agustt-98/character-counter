@@ -16,3 +16,51 @@
     --barrasProgreso: #D19BFF;
     --bordes: #2A2D3A;
 }
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+}
+
+img{
+    width:25px;
+}
+
+.button{
+    background-color: var(--fondoSecundario);
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.button:hover{
+    transform: scale(1.05);
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    display:flex;
+    gap:12px;
+    align-items: center;
+}
+
+.titulo h1{
+    font-size: 16px;
+    color: var(--textoPrincipal);
+    font-weight: 400;
+    
+}
+
+.principal{
+    background-color: var(--fondoPrincipal);
+    width: 90vh;
+    height: 100vh;
+    border-radius: 10px;
+    padding: 20px;
+}
