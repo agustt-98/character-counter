@@ -226,36 +226,45 @@ input:checked{
     width:80%;
     padding-left: 10px;
     padding-right:10px;
-   
     }
 
 #barra2{
     width:81%;
     padding-left: 14px;
     padding-right:10px;
-   
     }
 
 #barra3{
     width:80%;
     padding-left: 10px;
     padding-right:10px;
-    
     }
 
 #barra4{
     width:80%;
     padding-left: 10px;
     padding-right:10px;
-    
     }
 
 #barra5{
     width:80%;
     padding-left: 11px;
-    padding-right:10px;
-        
+    padding-right:10px;  
     }
+
+meter::-webkit-meter-bar{
+    background: var(--fondoSecundario);
+}
+
+meter::-webkit-meter-optimum-value{
+    background:var(--barrasProgreso);
+    border-radius: 999px;
+}
+
+meter::-moz-meter-bar{
+    background: var(--barrasProgreso);
+    border-radius: 999px;
+}
 
 .see-more{
     padding-top:10px;
