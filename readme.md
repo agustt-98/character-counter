@@ -101,6 +101,11 @@ Durante el desarrollo encontré las siguientes dificultades:
 
 ---
 
+### Aclaraciones (GIT/GITHUB)
+
+- El `Commit 7273903` debería ser `style`, en vez de `fix`
+- El `Commit 30a5c1d` debería ser `docs` en vez de `style` 
+
 ## Autor
 
 Agustin Simone
