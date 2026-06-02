@@ -1,4 +1,4 @@
-# Proyecto de Maquetado Web - Character Counter (HTML + CSS)
+# Proyecto de Maquetado Web - Character Counter
 
 ## 1. Objetivo del proyecto
 
@@ -10,10 +10,10 @@ Se buscó reproducir el diseño de referencia respetando la distribución visual
 
 ## 2. Tecnologías utilizadas
 
-- HTML
-- CSS
-- Git
-- GitHub
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
@@ -50,13 +50,13 @@ La estructura del proyecto fue dividida en secciones principales:
 
 ## 4. Resolución del CSS
 
-Para el diseño se utilizaron:
+Para el diseño se utilizó:
 
 ### Variables CSS
 Se definió una paleta de colores con variables mediante `:root` para facilitar el mantenimiento del código y la prolijidad del mismo.
 
 ### Flexbox
-Utilicé Flexbox para:
+Se utilizó Flexbox para:
 - Header
 - Controles inferiores
 - Distribución de las cards de métricas
@@ -77,7 +77,7 @@ Se implementaron utilizando la etiqueta HTML `<meter>` y estilos CSS para replic
 
 ## 5. Dificultades encontradas
 
-Durante el desarrollo encontré algunas dificultades:
+Durante el desarrollo encontré las siguientes dificultades:
 
 - Personalizar visualmente los `checkbox` manteniendo una apariencia similar al diseño de referencia, especificamente con `justify-content: space-between`.
 - Lograr una alineación consistente entre las barras de progreso y sus porcentajes (hay una pequeña diferencia en el comienzo de los últimos tres `meter` con el resto).
@@ -88,8 +88,6 @@ Durante el desarrollo encontré algunas dificultades:
 ## 6. Capturas del resultado final
 
 ### Vista completa
-
-Agregar aquí una captura del proyecto:
 
 ![Captura principal](assets/images/final.jpeg)
 
