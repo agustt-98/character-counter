@@ -89,7 +89,7 @@ Durante el desarrollo encontré las siguientes dificultades:
 
 ### Vista completa
 
-![Captura principal](assets/images/final.jpeg)
+![Captura principal](assets/images/final.png)
 
 ### Sección de barras
 
