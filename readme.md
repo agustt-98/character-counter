@@ -103,8 +103,8 @@ Durante el desarrollo encontré las siguientes dificultades:
 
 ### Aclaraciones (GIT/GITHUB)
 
-- El `Commit 7273903` debería ser `style`, en vez de `fix`
-- El `Commit 30a5c1d` debería ser `docs` en vez de `style` 
+- El [`Commit 7273903`](https://github.com/agustt-98/character-counter/commit/727390390d7125e941ebd68e4e3e23e67891df7a) debería ser `style`, en vez de `fix`
+- El [`Commit 30a5c1d`](https://github.com/agustt-98/character-counter/commit/30a5c1d022924cb9dfdda33f8a6d2a691ec506d8) debería ser `docs` en vez de `style` 
 
 ## Autor
 
