@@ -22,7 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 10px;
+    margin: 30px;
 }
 
 img{
@@ -61,7 +61,7 @@ img{
 .principal{
     background-color: var(--fondoPrincipal);
     width: 90vh;
-    height: 100vh;
+    height: 670px;
     border-radius: 10px;
     padding: 20px;
 }
@@ -191,3 +191,64 @@ input:checked{
     background-position: center; 
     background-repeat: no-repeat;
 }
+
+.density{
+    padding-top: 15px;
+    width: 100%;
+}
+
+.density h1{
+    font-size: 17px;
+    color: var(--textoSecundario);
+    padding-bottom: 10px;
+}
+
+.barras{
+    width:100%;
+    justify-content: space-between;
+}
+
+.barras label{
+    font-size: 14px;
+    color: var(--textoSecundario);
+}
+
+.barras span{
+    font-size: 14px;
+    color: var(--textoSecundario);
+}
+
+#barra1{
+    width:75%;
+    padding-left: 10px;
+    padding-right:10px;
+   
+    }
+
+#barra2{
+    width:76%;
+    padding-left: 14px;
+    padding-right:10px;
+   
+    }
+
+#barra3{
+    width:75%;
+    padding-left: 10px;
+    padding-right:10px;
+    
+    }
+
+#barra4{
+    width:75%;
+    padding-left: 10px;
+    padding-right:10px;
+    
+    }
+
+#barra5{
+    width:75%;
+    padding-left: 11px;
+    padding-right:10px;
+        
+    }
